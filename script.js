@@ -32,3 +32,11 @@ if (forma === 'quadrado') {
 }
 
 console.log(area);
+
+
+// tipagem dinamica
+// untyped
+
+let minhaVar = 567;
+minhaVar = 'texto';
+minhaVar = true;
