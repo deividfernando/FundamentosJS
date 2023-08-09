@@ -4,9 +4,9 @@ function Soma(num1, num2) {
     return num1 + num2;
 }
 
-console.log(Soma(2,2));
-console.log(Soma(500,125));
-console.log(Soma(-168,945));
+console.log(Soma(2, 2));
+console.log(Soma(500, 125));
+console.log(Soma(-168, 945));
 
 // parametros x argumentos
 
@@ -20,5 +20,15 @@ function Multiplica(num1 = 1, num2 = 1) {
     return num1 * num2;
 }
 
-console.log(Multiplica(Soma(2,3), Soma(4,5)));
-console.log(Multiplica(Soma(2,3)));
+console.log(Multiplica(Soma(2, 3), Soma(4, 5)));
+console.log(Multiplica(Soma(2, 3)));
+
+function cumprimentar() {
+    return 'Oi gente!'
+}
+
+function cumprimentaPessoa(nomePessoa) {
+    console.log(`${cumprimentar()} Meu nome é ${nomePessoa}`)
+}
+
+cumprimentaPessoa('Deivid')
